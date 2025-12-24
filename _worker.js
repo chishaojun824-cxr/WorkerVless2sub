@@ -1,5 +1,5 @@
 
-let 快速订阅访问入口 = ['auto'];
+let 快速订阅访问入口 = ['cherry'];
 let addresses = [];
 let addressesapi = [];
 
@@ -28,7 +28,7 @@ let 临时中转域名 = [];
 let 临时中转域名接口 = '';
 let EndPS = '';
 let 协议类型 = atob(`\u0056\u006b\u0078\u0046\u0055\u0031\u004d\u003d`);
-let FileName = '优选SUB生成器';
+let FileName = 'Cherry‘s 优选订阅';
 let SUBUpdateTime = 6;
 let total = 24;
 let timestamp = 4102329600000;
@@ -785,7 +785,7 @@ async function subHtml(request) {
 						<input type="text" id="link" placeholder="请输入 VMess / VLESS / Trojan 链接">
 					</div>
 					
-					<button onclick="generateLink()">生成优选订阅</button>
+					<button onclick="generateLink()">生成 Cherry's 优选</button>
 					
 					<div class="input-group">
 						<div style="display: flex; align-items: center;">
@@ -1463,6 +1463,7 @@ export default {
 		}
 	}
 };
+
 
 
 
