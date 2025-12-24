@@ -45,7 +45,7 @@ let alpn = '';
 let 网络备案 = `<a href='https://shahs.ggff.net'>ICP备-20250707号</a>`;//写你自己的维护者广告
 let 额外ID = '0';
 let 加密方式 = 'auto';
-let 网站图标, 网站头像, 网站背景, xhttp = 'https://youke2.picui.cn/s1/2025/12/24/694b573884355.jpg';
+let 网站图标, 网站头像, 网站背景, xhttp = '';
 async function 整理优选列表(api) {
 	if (!api || api.length === 0) return [];
 
@@ -1463,6 +1463,7 @@ export default {
 		}
 	}
 };
+
 
 
 
