@@ -28,7 +28,7 @@ let 临时中转域名 = [];
 let 临时中转域名接口 = '';
 let EndPS = '';
 let 协议类型 = atob(`\u0056\u006b\u0078\u0046\u0055\u0031\u004d\u003d`);
-let FileName = '优选订阅生成器';
+let FileName = '优选SUB生成器';
 let SUBUpdateTime = 6;
 let total = 24;
 let timestamp = 4102329600000;
@@ -42,7 +42,7 @@ let MamaJustKilledAMan = ['telegram', 'twitter', 'miaoko'];
 let proxyIPPool = [];
 let socks5Data;
 let alpn = '';
-let 网络备案 = `<a href='https://t.me/CMLiussss'>萌ICP备-20240707号</a>`;//写你自己的维护者广告
+let 网络备案 = `<a href='https://shahs.ggff.net'>ICP备-20250707号</a>`;//写你自己的维护者广告
 let 额外ID = '0';
 let 加密方式 = 'auto';
 let 网站图标, 网站头像, 网站背景, xhttp = '';
@@ -941,7 +941,7 @@ export default {
 		if (env.IMG) {
 			const imgs = await 整理(env.IMG);
 			网站背景 = `background-image: url('${imgs[Math.floor(Math.random() * imgs.length)]}');`;
-		} else 网站背景 = '';
+		} else 网站背景 = 'https://mypikpak.com/s/VOhDHnShXjD9gyFhY11KnMsYo2pokemon.jpg';
 		网络备案 = env.BEIAN || env.BY || 网络备案;
 		const userAgentHeader = request.headers.get('User-Agent');
 		const userAgent = userAgentHeader ? userAgentHeader.toLowerCase() : "null";
@@ -1463,3 +1463,4 @@ export default {
 		}
 	}
 };
+
