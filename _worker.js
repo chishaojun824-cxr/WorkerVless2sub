@@ -941,7 +941,7 @@ export default {
 		if (env.IMG) {
 			const imgs = await 整理(env.IMG);
 			网站背景 = `background-image: url('${imgs[Math.floor(Math.random() * imgs.length)]}');`;
-		} else 网站背景 = 'https://mypikpak.com/s/VOhDHnShXjD9gyFhY11KnMsYo2pokemon.jpg';
+		} else 网站背景 = 'https://youke2.picui.cn/s1/2025/12/24/694b573884355.jpg';
 		网络备案 = env.BEIAN || env.BY || 网络备案;
 		const userAgentHeader = request.headers.get('User-Agent');
 		const userAgent = userAgentHeader ? userAgentHeader.toLowerCase() : "null";
@@ -1463,4 +1463,5 @@ export default {
 		}
 	}
 };
+
 
